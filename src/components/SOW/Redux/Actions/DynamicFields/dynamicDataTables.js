@@ -1,0 +1,1 @@
+let SOW_TABLES_DATA_STRUCT = {};

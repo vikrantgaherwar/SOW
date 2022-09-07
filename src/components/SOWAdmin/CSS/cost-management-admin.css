@@ -1,0 +1,61 @@
+.ac-label {
+  font-weight: 700;
+  position: relative;
+  padding: .5em 1em;
+  margin-bottom: .5em;
+  display: block;
+  cursor: pointer;
+  background-color: whiteSmoke;
+  transition: background-color .15s ease-in-out;
+  padding-left: 50px;
+}
+
+.active-input{
+  background-color: #00E8CF;
+  color: #fff;
+}
+.active-input::placeholder{
+  color: #000;
+}
+.ac-sub .ac-label {
+  background: none;
+  font-weight: 600;
+  padding: .5em 2em;
+  margin-bottom: 0;
+  border:1px solid #ddd;
+  font-size: 13px;
+}
+.ac-sub .ac-label:hover {
+  background: rgba(52,73,94,0.94) !important;
+  color: #fff;
+}
+.sow-table-header-button
+{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 154, 130);
+  border-color: rgb(0, 154, 130);
+  font-size: 14px !important;
+  width: 25px;
+}
+.new-btn-success
+{
+  background-color: rgb(0, 154, 130) !important;
+  font-size: 14px !important;
+  width: 25px;
+}
+.ac-label-true{
+background: rgba(52,73,94,0.94) !important;
+color: #fff;
+}
+.cost-Modal
+{
+  padding: 0rem !important;
+}
+.cost-modal-header
+{
+  padding: 0.5rem 0.5rem !important;
+}
+.cost-form-group
+{
+  margin-bottom:.25rem !important;
+}

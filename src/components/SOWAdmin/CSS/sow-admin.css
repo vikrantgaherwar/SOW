@@ -1,0 +1,73 @@
+.navbar-bg-black {
+  background-color: black;
+}
+
+.navbar-logo-size {
+  height: 50px;
+  width: 100%;
+}
+
+.sow-admin-tr th {
+  background-color: teal;
+  color: #fff;
+}
+
+.table-role td,
+.table-role th {
+  padding: 0.5rem !important;
+}
+
+.full-screen-loader {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  opacity: 0.8;
+  overflow: hidden;
+}
+
+.placeholder {
+  /* width: 100%; */
+  display: inline-block;
+  min-height: 1em;
+  cursor: wait;
+  background-color: currentColor;
+  opacity: 0.5;
+  animation: placeholder-glow 2s ease-in-out infinite;
+}
+
+.sow-table-container {
+  height: calc(100vh - 250px);
+  overflow-y: scroll;
+}
+#exceptionModal.bootbox .modal-dialog.modal-lg {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#exceptionModal.bootbox .modal-header {
+  color: red !important;
+}
+
+#exceptionModal.bootbox .modal-header {
+  color: red !important;
+}
+
+#exceptionModal.bootbox .modal-body {
+  max-height: 400px !important;
+  font-family: monospace;
+  background: lightgoldenrodyellow;
+  overflow-y: scroll !important;
+}
+
+#exceptionModal.bootbox .modal-content {
+  width: auto !important;
+  border: 2px solid red;
+}
+
+main {
+  position: fixed;
+  margin-left: 310px;
+  width: calc(100vw - 340px) !important;
+}

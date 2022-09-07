@@ -1,0 +1,57 @@
+.sow-admin-tr th {
+  background-color: teal !important;
+  color: #fff !important;
+  padding: 10px;
+}
+.heading-origin {
+  padding: 8px !important;
+  background-color: #778899;
+  color: white;
+}
+.heading-resource {
+  color: darkcyan;
+}
+.btn-mapping-color {
+  width: 100px;
+  background: #01a982;
+  color: #fff;
+  padding: 0.5em 0em !important;
+  border: none !important;
+}
+.btn-mapping-color:hover {
+  background: #01a982 !important;
+  color: #fff !important;
+  border-color: none !important;
+}
+.btn-mapping-color:visited {
+  background: #01a982 !important;
+  color: #fff !important;
+  border-color: none !important;
+}
+.btn-mapping-color:active {
+  background: #01a982 !important;
+  color: #fff !important;
+  border-color: none !important;
+}
+
+.sow-skill-mapping-container {
+  height: calc(100vh - 200px);
+  overflow-y: scroll;
+}
+
+.skill-spinner {
+  text-align: center;
+}
+
+.custom-skill-dialog {
+  width: 60%;
+  /* top: 10%; */
+}
+/* .skill-modal-body {
+  top: 37px;
+  position: relative;
+} */
+.skill-table-header {
+  position: sticky;
+  z-index: 999;
+}

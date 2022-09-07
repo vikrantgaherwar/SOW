@@ -1,0 +1,42 @@
+.dynamic-accordion
+{   overflow-y: scroll;
+    height: calc(100vh - 250px) !important;
+    width: calc(100vw - 300px) !important;
+}
+#table_workPackages>thead>tr>th
+{
+   background-color:rgba(52,73,94,0.94) !important;
+   color:white;
+}
+#table_workPackages{
+    border: 1px dashed rgba(52,73,94,0.94);;
+}
+#tShirtSize .popover-body{
+    border: 2px solid grey!important;
+}
+#tShirtSize.popover{
+    z-index: 1000 !important;
+  }
+#table_workPackages .table-hover tbody tr:hover {
+    color: #212529;
+    background-color: rgba(38,185,154,0.07);
+}
+#tr_parent_workPackages {
+    border-left: 3px solid rgba(52,73,94,0.94);
+}
+.workpackge-modal-footer
+{
+    padding-bottom:0.05rem !important;
+}
+.workpackage-modal-inputgroup
+{
+    margin-bottom: 0.5rem !important;
+}
+#adminAddSolutionItemModal .modal-content
+{
+    min-height:calc(90vh);
+}
+.tbl_solutions{
+    width: 98%;
+    margin-left: 1%;
+}
